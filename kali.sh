@@ -39,10 +39,4 @@ banner
 
   echo -e "${YELLOW}[+] Running NetHunter Installation Script... Please wait.${RESET}"
   ./install-nethunter-termux
-
-  echo -e "${YELLOW}[+] Starting Kali NetHunter... Please wait.${RESET}"
-  nethunter
-} || {
-  echo -e "${RED}[!] An error occurred during the installation${RESET}"
-  exit 1
 }
